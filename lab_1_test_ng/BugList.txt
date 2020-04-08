@@ -1,0 +1,7 @@
+1. Incorrect return of getColor() method. This method returned constant value "BLUE".
+Class: Pen
+Method: String getColor()
+Input:  inkContainerValue = 1, sizeLetter = 1.0, color = { "red", "green", "blue"}
+Constructor: public Pen(int inkContainerValue, double sizeLetter, String color)
+Result: "BLUE", "BLUE", "BLUE"
+Expected results: "red", "green", "blue"
